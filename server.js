@@ -9,7 +9,7 @@ app.use(middleware.logger);
 
 
 app.get('/about', function(req, res) {
-  res.send('About FDTR Static Table API');
+  res.send('About FDTR Static Table API!');
 });
 app.use(express.static(__dirname + '/public'));
 
